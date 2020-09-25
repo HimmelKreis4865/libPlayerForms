@@ -1,0 +1,8 @@
+name: "libPlayerForms"
+version: "0.1.0-beta"
+description: "A simple and lightweight API for creating and sending forms to players."
+authors:
+  - "DerDevHD"
+api:
+  - 3.0.0
+antigen: libPlayerForms
