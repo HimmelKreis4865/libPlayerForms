@@ -20,10 +20,10 @@ Now you can create a Form like this
 (new SimpleForm("Title", "Description"))
     ->addElement(new Button("§cApple", new ButtonImage("https://www.neurodermitis-bund.de/assets/images/a/apfel_juni_2019-40b09b3f.jpg", ButtonImage::TYPE_URL)))
     ->addElement(new Button("§gBanana", new ButtonImage("https://www.kochschule.de/sites/default/files/images/kochwissen/440/banane.jpg", ButtonImage::TYPE_URL)))
-   	->addElement(new Button("§6Orange", new ButtonImage("https://i0.wp.com/www.agriculturenigeria.com/wp-content/uploads/2020/01/orange-1.jpg", ButtonImage::TYPE_URL)))
-   	->setCloseListener(function(Player $player) : void{
-   		$player->sendMessage("You just close the form");
-  	})
+    ->addElement(new Button("§6Orange", new ButtonImage("https://i0.wp.com/www.agriculturenigeria.com/wp-content/uploads/2020/01/orange-1.jpg", ButtonImage::TYPE_URL)))
+    ->setCloseListener(function(Player $player) : void{
+   	$player->sendMessage("You just close the form");
+    })
     ->setSubmitListener(function(Player $player, FormResponse $response) : void{
     	$player->sendMessage("You like {$response->getElementById($response->getActualResponse())->getText()}!");
     })
