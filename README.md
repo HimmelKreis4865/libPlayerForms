@@ -3,6 +3,8 @@
 
 A simple and lightweight API for creating and sending forms to players
 
+## This plugin was made by [DerDevHD](https://github.com/DerDevHD) I'm only owning this because he left PMMP Community!
+
 # Fetures
 - Dynamic Form creation
 - Fast-loading images
